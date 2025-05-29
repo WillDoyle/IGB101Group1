@@ -13,15 +13,18 @@ public class GameManager : MonoBehaviour
     public int currentPickups = 0;
     public int maxPickups = 5;
     public bool levelComplete = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    public void RemoveAudioSource(AudioSource audioToRemove)
     {
-        
+        System.Collections.Generic.List<AudioSource> audioList = new System.Collections.Generic.List<AudioSource>(audioSources);
+        audioList.Remove(audioToRemove);
+        audioSources = audioList.ToArray();
     }
+
 
     private void UpdateGUI()
     {
-        pickupText.text = "Pickups: " + currentPickups + "/" + maxPickups;
+        pickupText.text = "Acorns Collected: " + currentPickups + "/" + maxPickups;
     }
 
     private void PlayAudioSamples()

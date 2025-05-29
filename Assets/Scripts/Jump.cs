@@ -29,15 +29,20 @@ public class Jump : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+{
+    if (Input.GetKeyDown("space") && isGrounded)
     {
-        if (Input.GetKeyDown("space") && isGrounded)
-        {
-            rb.AddForce(Vector3.up * jumpHeight);
-            animator.SetBool("Jumping", true);
-        }
-        else if (Input.GetKeyUp("space"))
+        rb.AddForce(Vector3.up * jumpHeight);
+        animator.SetBool("Jumping", true);
+    }
+    
+    if (isGrounded && animator.GetBool("Jumping"))
+    {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        if (stateInfo.IsName("Jump") && stateInfo.normalizedTime >= 0.9f)
         {
             animator.SetBool("Jumping", false);
         }
     }
+}
 }
