@@ -429,6 +429,8 @@
 -analyzer:"E:/Unity/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/Unity/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"E:/Unity/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Downloaded Packages/Free Wood Door Pack/Script/Door.cs"
+"Assets/Downloaded Packages/Free Wood Door Pack/Script/FPSController.cs"
 "Assets/Packages/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs"
 "Assets/Packages/Third Person Controller/PlayerMovement.cs"
 "Assets/Packages/Third Person Controller/ThirdPersonCamera.cs"
