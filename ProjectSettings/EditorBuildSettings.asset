@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Museum Showcase.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/IGB101 Assessment 1 Callum Palacios.unity
+    guid: a287bf4d979d0ac47afbd0a135b2c6cd
+  - enabled: 1
+    path: Assets/Scenes/Will Doyle n10752447.unity
+    guid: e91f25e3794cf9342a2b31ed915fc2ac
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
