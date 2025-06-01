@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/IGB101 Assessment 1 Callum Palacios.unity
+- path: Assets/Scenes/IGB101 A3 Krrish.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
